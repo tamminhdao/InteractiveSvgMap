@@ -31,7 +31,7 @@
    sodipodi:docname="chicago.svg"><metadata
      id="metadata361"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
      id="defs359" /><sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -50,13 +50,14 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="1"
-     inkscape:cx="514.06861"
+     inkscape:cx="347.06861"
      inkscape:cy="320.34962"
      inkscape:window-x="212"
-     inkscape:window-y="107"
+     inkscape:window-y="85"
      inkscape:window-maximized="0"
      inkscape:current-layer="g5"
-     viewbox-width="200" /><g
+     viewbox-width="200"
+     inkscape:snap-text-baseline="true" /><g
      inkscape:groupmode="layer"
      inkscape:label="chicomm.shp"
      id="g3"
@@ -88,7 +89,7 @@
          kml2svg:originalId="4"
          d="m 295.507,51.299 1.413,0.158 1.297,-0.158 8.734,-0.157 1.801,-0.006 1.666,-0.042 1.891,0.006 0.404,-0.055 0.379,-0.066 v 3.973 2.538 3.967 l 0.117,1.417 v 1.441 1.429 l 0.117,1.429 -0.117,1.429 0.234,1.429 0.117,1.429 -0.117,1.587 v 1.271 1.587 l 0.117,1.429 v 1.429 2.538 l 0.352,4.765 v 2.858 2.852 l 0.115,3.015 0.127,2.858 h -0.477 -0.352 -0.711 l -0.945,0.163 h -1.883 -1.656 -1.891 -0.945 l -0.938,0.158 h -1.891 -1.539 -1.297 -1.529 l -1.296,-0.158 -1.423,0.158 -1.531,0.157 h -0.711 -0.585 l -1.413,-0.157 -1.54,0.157 -0.468,-1.429 -0.479,-1.586 -1.529,-1.907 -0.234,-0.636 -1.297,-1.586 -0.711,-0.95 -0.352,-0.315 -0.36,-0.479 -0.819,-0.951 -0.945,-1.75 -3.07,-5.552 -0.828,-2.223 -0.469,-3.016 -2.836,-12.227 1.539,0.157 0.586,-0.157 1.18,-0.157 h 1.413 l 1.54,-0.158 1.414,0.158 h 1.413 1.423 1.53 1.657 1.18 1.413 l 1.413,-0.158 1.414,0.158 1.423,-0.158 -0.234,-2.859 -0.126,-3.016 v -2.859 z"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round" /><path
+         style="fill:#b3f0ff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;fill-opacity:1" /><path
          id="_x35__x5F_3"
          kml2svg:originalId="5"
          d="m 308.131,97.813 h 1.656 1.883 l 0.945,-0.163 h 0.711 0.352 0.477 v 2.857 3.015 l 0.117,2.857 v 2.857 l 0.117,2.857 0.117,3.014 0.117,2.857 v 2.693 l -0.117,0.799 0.117,2.378 v 1.265 0.957 l 0.234,1.107 -0.117,0.793 -0.117,1.749 0.117,1.265 0.117,1.428 v 0.478 0.95 l 0.232,1.586 v 1.428 l 0.244,1.749 h -0.477 l 0.232,4.599 -0.232,0.95 h -1.648 -0.477 -0.703 l -2.836,0.158 -0.945,-0.158 h -2.125 l -2.242,0.158 -0.945,-1.743 -2.477,-0.792 -2.836,-3.649 -2.711,-1.428 -0.594,-1.586 -2.115,-2.378 -3.188,-5.235 -1.18,-6.028 -0.595,-6.035 2.593,-5.708 0.055,-2.857 0.045,-2.857 0.027,-1.586 -0.127,-1.429 -0.117,-1.429 -0.116,-1.429 1.54,-0.157 1.413,0.157 h 0.585 0.711 l 1.531,-0.157 1.423,-0.158 1.296,0.158 h 1.531 1.297 1.539 1.891 l 0.938,-0.158 h 0.945 1.892 z"
