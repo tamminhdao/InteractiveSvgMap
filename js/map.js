@@ -68,8 +68,6 @@ var current = null;
 for (var neighborhood in chicago) {
     //closure 
     (function (area, neighborhood) {
-        //area.attr(focal_style);
-
         area[0].addEventListener("mouseover", function() {
             area.animate(hoverStyle, animationSpeed);
             current && (document.getElementById(current).style.display = ""); //clear out the previous neighborhood description
