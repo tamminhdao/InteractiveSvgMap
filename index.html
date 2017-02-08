@@ -3,10 +3,117 @@
   <head>
     <meta charset="utf-8" />
     <title>Chicago neighborhood map in SVG with Raphaël.js</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <h3>Chicago</h3>
-    <div id="map"></div>
+    <div id="canvas">
+      <div id="map"></div>
+      <div id ="edgewater">
+        <h3>Edgewater</h3>
+        <p>
+          Edgewater, as the name would imply, hugs the shores of Lake Michigan some seven miles north of downtown Chicago. Famous for its expansive beaches and sprawling park space, this neighborhood boasts an eclectic mix of urban gains and natural beauty. When strolling through Edgewater, expect to find families, a crowd of illustrious city landmarks and some of the Midwest’s best antique shopping.
+        </p>
+      </div>
+      <div id="uptown">
+        <h3>Uptown</h3>
+        <p>
+          A vibrant blend of old and new, Uptown is an intriguing neighborhood where Chicago's rich history and ethnic diversity intersect. A renaissance has been underway in the area and for live music, colorful nightlife, classic architecture and diverse Asian eats, it is a destination neighborhood once again.
+        </p>
+      </div>
+      <div id="lakeview">
+        <h3>Lakeview</h3>
+        <p>
+          Anchored by a beautiful stretch of shoreline to the east and dotted with train stops from two ‘L' lines, Lakeview is one of Chicago's liveliest and most accessible neighborhoods. Several distinct areas — East Lakeview, Central Lakeview, Boystown and Wrigleyville — meld together to form a lakefront community that boasts something for everyone, from nature to nightlife, cafés to comedy.
+        </p>
+      </div>
+      <div id="northcenter">
+        <h3>North Center</h3>
+        <p>
+          In North Center, most of the action centers at the six-way intersection where Irving Park Road meets Lincoln and Damen Avenue. Spread all around are options to suit just about any fancy: pubs, theater, dining and more.
+        </p>
+      </div>
+      <div id="lincolnpark">
+        <h3>Lincoln Park</h3>
+        <p>
+          In Lincoln Park, Chicago’s motto urbs in horto — or “City in a Garden” — truly comes to life. Historic churches and handsome brick row houses nestled within landmark districts sit next to peaceful parks, while quiet, tree-lined residential areas give way to bustling business corridors.
+        </p>
+      </div>
+      <div id="nearnorthside">
+        <h3>Near North Side (River North, Gold Coast, Streeterville)</h3>
+        <p>
+          With streets that are lined with historic mansions and specialty boutiques, the Gold Coast is an intensely popular area for residents and visitors. A day of shopping on Oak Street becomes a night of revelry on the neighborhood’s fabled Rush Street. Amongst the prestigious hotels and celebrated eateries, you will find a trove of booming nightlife hot spots and high-energy events. 
+          A stylish urban neighborhood that borders the Magnificent Mile and is just across the bridge from the Loop, River North is the go-to district for those who appreciate fine art and design. And for those who appreciate fine dining and drinks, the momentum behind the latest trendsetting openings continues to build and the late night energy swells.
+          A play land filled with amusement rides, gift shops and eateries, Streeterville's main attraction Navy Pier is lined with sightseeing boats and bicycles. In addition to sweeping lakefront views, Navy Pier is home to its own beer garden and evening fireworks in the summer, as well as year-round favorites, Chicago Children’s Museum and Chicago Shakespeare Theater. 
+        </p>
+      </div>
+      <div id="loop">
+        <h3>The Loop</h3>
+        <p>
+          As Chicago’s official downtown area, The Loop is one of the most important central business districts on the globe. In addition to its dynamic architecture and buzzing atmosphere, the area has an incredible concentration of cultural institutions and public art — from Millennium Park to the Picasso — as well as Michelin-rated restaurants and a shopper’s paradise along State Street.
+        </p>
+      </div>
+      <div id="southloop">
+        <h3> South Loop</h3>
+        <p>
+          The South Loop is such a dynamic mix of attractions and histories that the neighborhood tends to be seen as many different things to many different people. Much of the eastern edge is encompassed by the Museum Campus, an impressive collection of cultural treasures, and Northerly Island, a peninsula sought out by nature lovers. History buffs point out the Motor Row District along South Michigan Avenue and nearby Prairie Avenue District. In the adjacent Printer’s Row neighborhood, urban loft condos now fill the commercial spaces in what was formerly the center of the Midwest’s publishing industry.
+        </p>
+      </div>
+      <div id="bronzeville">
+        <h3>Bronzeville</h3>
+        <p>
+          Bronzeville’s 20th century resurgence, which rivaled the Harlem Renaissance, is responsible for tremendous cultural and social advances. Pulitzer Prize recipient Gwendolyn Brooks, civil rights activist Ida B. Wells, and legendary musician Louis Armstrong were profoundly responsible for the area’s development and subsequent cultural crusade, which included advances in civil rights, jazz, blues and gospel music.
+        </p>
+      </div>
+      <div id="kenwood">
+        <h3>Kenwood</h3>
+        <p>
+          From President Barack Obama to Muhammad Ali and longtime White Sox owner Bill Veeck, some of Chicago’s best have called Kenwood home. This remarkable neighborhood on the city’s South Side was once a refuge for Chicago’s elite who, to escape the clamor of downtown Chicago, built enormous homes on the Lake Michigan shoreline. Today, Kenwood gracefully echoes its lavish beginnings with historic streets, official landmarks and an ever-growing commercial district.
+        </p>
+      </div>
+      <div id="hydepark">
+        <h3>Hyde Park</h3>
+        <p>
+          In 1893 Hyde Park hosted the Chicago’s World Fair (known as the Columbian Exposition) which, among other things, introduced the United States to electricity and the Ferris wheel. The event was so grand that it required more than 600 acres of space, the construction of 200 buildings and welcomed close to 30 million people. More than 120 years later, the area is still a profound hinge point of historical and social importance in Chicago.
+        </p>
+      </div>
+      <div id="bridgeport">
+        <h3>Bridgeport</h3>
+        <p>
+          Bridgeport is a working-class neighborhood on Chicago’s near South Side and, as the birthplace and home to five Chicago mayors, a reputed hotbed for city politics. In addition to its homegrown civic leaders, the neighborhood also claims the Chicago White Sox, one of Major League Baseball’s oldest franchises.
+        </p>
+      </div>
+      <div id="chinatown">
+        <h3>Chinatown</h3>
+        <p>
+          With more than 65,000 Chinese residents, Chicago’s Chinatown is one of the largest neighborhoods of its kind in the United States. Located on the city’s near South Side, the vibrant and energetic culture is reflected in the area’s many specialty shops, authentic cultural cuisine and signature landmarks, like Ping Tom Memorial Park and a Buddhist Temple.
+        </p>
+      </div>
+      <div id="pilsen">
+        <h3>Pilsen</h3>
+        <p>
+          For over 150 years, Pilsen has been a port of entry for immigrants. Thanks to this diversity, you’ll find offbeat vintage shops, independent coffee houses and quaint cafes alongside bodegas, panaderias and restaurants serving authentic Mexican cuisine.
+        </p>
+      </div>
+      <div id="nearwestside">
+        <h3>Near West Side</h3>
+        <p>
+          A transformation — or rather, an explosion — has taken place among the former factories, wholesale markets and warehouses on the edges of downtown. One of Chicago’s fastest growing neighborhoods, the West Loop has seen a slew of new sleek restaurant openings join the chic retail boutiques, galleries, design stores and antique sources that give the area its creative-edginess. And for more culture, Greektown has a wealth of it. 
+          On Taylor Street, from Morgan Street west to Ashland Avenue, you’ll find restaurants that span generations. Pizza and pasta reign supreme here, but other specialty spots have a calling of their own.
+        </p>
+      </div>
+      <div id="westtown">
+        <h3>West Town</h3>
+        <p>
+          For a feel of the youthful, creative energy on Chicago's northwest side, make your way to the eclectic cross-sections of West Town, Ukrainian Village and East Village. Whether you are looking for a brunch spot, antique furniture or vintage accessories — or want to seek out traces of the area's humble immigrant history — wander block by block along the main arteries Division, Chicago and Grand Avenue.
+        </p>
+      </div>
+      <div id="logansquare">
+        <h3>Logan Square</h3>
+        <p>
+          Cheap eats and bike-friendly streets. Gourmet coffee, scruffy dive bars and artisanal cocktail lounges. Some may say it’s a recipe for a hipster haven but there’s a proud, working-class sensibility that keeps this Northwest Side neighborhood grounded.
+        </p>
+      </div>
+    </div>
     <script src="js/raphael.min.js"></script>
     <script src="js/map.js"></script>
   </body>

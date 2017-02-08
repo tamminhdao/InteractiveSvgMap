@@ -1,9 +1,9 @@
 //Initiate the map
-var MAP_WIDTH  = 525;
-var MAP_HEIGHT = 650;
+var width  = 525;
+var height = 650;
 
 var mapContainer = document.getElementById("map");
-var map = new Raphael(mapContainer, MAP_WIDTH, MAP_HEIGHT);
+var map = new Raphael(mapContainer, width, height);
 
 //Style has to be defined before adding style attribute to map
 //style the featured neighborhoods
