@@ -62,17 +62,23 @@ var hoverStyle = {
   fill: "#0077b3"
 }
 
-for(var neighborhood in chicago) {
-    (function (region) {
-        region.attr(focal_style);
+//Change color and display info when hover over a featured neighborhood
+var current = null;
+for (var neighborhood in chicago) {
+    //closure 
+    (function (area, neighborhood) {
+        //area.attr(focal_style);
 
-        region[0].addEventListener("mouseover", function() {
-            region.animate(hoverStyle, animationSpeed);
+        area[0].addEventListener("mouseover", function() {
+            area.animate(hoverStyle, animationSpeed);
+            current && (document.getElementById(current).style.display = ""); //clear out the previous neighborhood description
+            document.getElementById(neighborhood).style.display = "block"; //display current neighborhood info
+            current = neighborhood;
         }, true);
 
-        region[0].addEventListener("mouseout", function() {
-          region.animate(focal_style, animationSpeed);
+        area[0].addEventListener("mouseout", function() {
+          area.animate(focal_style, animationSpeed);
         }, true);
 
-    })(chicago[neighborhood]);
+    })(chicago[neighborhood], neighborhood);
 }
