@@ -63,6 +63,11 @@ var hoverStyle = {
   fill: "#0077b3"
 }
 
+//Hide the introduction when hover mouse over the map
+document.getElementById("map").addEventListener ('mouseover', function() {
+    document.getElementById("intro").style.display = 'none';
+});
+
 //Change color and display info when hover over a featured neighborhood
 var current = null;
 for (var neighborhood in chicago) {
@@ -78,6 +83,6 @@ for (var neighborhood in chicago) {
         area[0].addEventListener("mouseout", function() {
           area.animate(focal_style, animationSpeed);
         }, true);
-
     })(chicago[neighborhood], neighborhood);
 }
+
