@@ -1,26 +1,32 @@
-#canvas {
-    margin: 0;
-    position: absolute;
-    left: 20%;
-    top: 15%;
-    width: 80%;
-    height: 85%;
+* {
+    box-sizing: border-box;
 }
+
+#canvas {
+    width: 900px;
+    height: 600px;
+    /* in order to put this div at the center of the page */
+    /* position, top and left has to be valued as below regardless of map dimension */
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    /* calculate margin according to map dimension to achieve desired position */
+    margin: -300px 0 0 -450px;
+}
+
 #map {
-    left: 0;
     position: absolute;
+    left: 0;
     top: 0;
-    max-width: 45%;
     max-height: 100%;
 }
 
 #intro {
     overflow: auto;
     position: absolute;
-    left: 45%;
+    right: 0;
     top: 0;
-    max-width: 30%;
-    max-height: 100%;
+    max-width: 40%;
     font-size: 1.5em;
 }
 
@@ -45,10 +51,9 @@
     display: none;
     overflow: auto;
     position: absolute;
-    left: 45%;
+    right: 0;
     top: 0;
-    max-width: 30%;
-    max-height: 100%;
+    max-width: 40%;
     font-size: 1.5em;
 }
 
