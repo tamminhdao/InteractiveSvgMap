@@ -71,18 +71,19 @@ document.getElementById("map").addEventListener ('mouseover', function() {
 //Change color and display info when hover over a featured neighborhood
 var current = null;
 for (var neighborhood in chicago) {
-    //closure 
     (function (area, neighborhood) {
+        //chicago[neighborhood] which is an object which many attributes is passed into the area parameter
+        //area[0] or chicago[neighborhood][0] refer to the path drawn above
         area[0].addEventListener("mouseover", function() {
             area.animate(hoverStyle, animationSpeed);
             current && (document.getElementById(current).style.display = ""); //clear out the previous neighborhood description
             document.getElementById(neighborhood).style.display = "block"; //display current neighborhood info
             current = neighborhood;
-        }, true);
+        });
 
         area[0].addEventListener("mouseout", function() {
           area.animate(focal_style, animationSpeed);
-        }, true);
+        });
     })(chicago[neighborhood], neighborhood);
 }
 
